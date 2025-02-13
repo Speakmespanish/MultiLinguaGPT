@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "hPidwoyyJmQlZD3A9jJFvGl4un3AUuJ61vX6HQnzQXs=",
+  "Source": "DataService.API",
+  "BasePath": "_content/DataService.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
