@@ -8,7 +8,7 @@ namespace UserService.Core.Enums
 {
     public enum TiposUsuarios
     {
-        Cliente, 
-        Administrador
+        Cliente = 0, 
+        Administrador = 1
     }
 }

@@ -9,15 +9,15 @@ namespace UserService.Core.Entities
 {
     public class Usuarios
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
 
         public string Name { get; set; } = string.Empty!;
 
-        public string Mail { get; set; } = string.Empty!;
+        public string Email { get; set; } = string.Empty!;
 
         public string Password { get; set; } = string.Empty!;
 
-        public string? LanguajePreference { get; set; }
+        public string? LanguagePreference { get; set; }
 
         public TiposUsuarios UserType { get; set; } 
     }
