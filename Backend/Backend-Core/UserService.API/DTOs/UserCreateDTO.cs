@@ -8,5 +8,5 @@ public class UserCreateDTO
 
     public string? LanguagePreference { get; set; }
 
-    public int UserType { get; set; } = 0;
+    public int UserType { set; } = 0;
 }
