@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MSI GS66\\source\\repos\\MultiLinguaGPT - Desarrollo\\Backend\\Backend-Core\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj": {}
+    "C:\\Users\\MSI GS66\\Documents\\Documents\\ITLA\\Asignaturas\\2025-C1\\Proyecto Final TDS\\Backend - PF\\MultiLinguaGPT\\Backend\\Backend-Core\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MSI GS66\\source\\repos\\MultiLinguaGPT - Desarrollo\\Backend\\Backend-Core\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj": {
+    "C:\\Users\\MSI GS66\\Documents\\Documents\\ITLA\\Asignaturas\\2025-C1\\Proyecto Final TDS\\Backend - PF\\MultiLinguaGPT\\Backend\\Backend-Core\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSI GS66\\source\\repos\\MultiLinguaGPT - Desarrollo\\Backend\\Backend-Core\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\MSI GS66\\Documents\\Documents\\ITLA\\Asignaturas\\2025-C1\\Proyecto Final TDS\\Backend - PF\\MultiLinguaGPT\\Backend\\Backend-Core\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj",
         "projectName": "AuthService.Infrastructure",
-        "projectPath": "C:\\Users\\MSI GS66\\source\\repos\\MultiLinguaGPT - Desarrollo\\Backend\\Backend-Core\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\MSI GS66\\Documents\\Documents\\ITLA\\Asignaturas\\2025-C1\\Proyecto Final TDS\\Backend - PF\\MultiLinguaGPT\\Backend\\Backend-Core\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\MSI GS66\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSI GS66\\source\\repos\\MultiLinguaGPT - Desarrollo\\Backend\\Backend-Core\\AuthService.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\MSI GS66\\Documents\\Documents\\ITLA\\Asignaturas\\2025-C1\\Proyecto Final TDS\\Backend - PF\\MultiLinguaGPT\\Backend\\Backend-Core\\AuthService.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
